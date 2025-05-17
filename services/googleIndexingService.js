@@ -2,7 +2,7 @@ const { google } = require('googleapis');
 const { getGoogleCredentials } = require('./googleAuth');
 
 // Configuration
-const SITE_URL =  '';
+const SITE_URL =  'penguincooling.co.uk';
 
 // Initialize auth client
 const getJWTClient = () => {
