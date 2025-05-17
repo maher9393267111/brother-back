@@ -2,7 +2,7 @@ const { google } = require('googleapis');
 const { getGoogleCredentials } = require('./googleAuth');
 
 // Configuration
-const SITE_URL = process.env.SITE_URL || 'https://letsbuildsw.co.uk';
+const SITE_URL =  '';
 
 // Initialize auth client
 const getJWTClient = () => {
